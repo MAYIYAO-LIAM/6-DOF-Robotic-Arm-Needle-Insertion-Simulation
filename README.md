@@ -1,6 +1,6 @@
 # 6-DOF Robotic Arm Needle Insertion Simulation
 
-This project simulates the motion trajectory of a 6-DOF robotic arm during a needle insertion process using MATLAB and the Robotics Toolbox. The robotic arm's task is to pick up a needle from a needle box, insert the needle into a simulated human back (represented by a y-z plane), release the needle, and repeat the process for all the designated insertion points.
+This project simulates the motion trajectory of a 6-DOF robotic arm (ur5e) during a needle insertion process using MATLAB and the Robotics Toolbox. The robotic arm's task is to pick up a needle from a needle box, insert the needle into a simulated human back (represented by a y-z plane), release the needle, and repeat the process for all the designated insertion points.
 
 ## Features
 

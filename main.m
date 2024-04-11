@@ -84,48 +84,48 @@ pause(1);
 
 %% 1
 Q_initial = move_to_point(Six_dof, Q_initial, P0, P11);
-Q_initial = move_between_points(Six_dof, Q_initial, P11, P12, P13, 0.2);
+Q_initial = move_between_points(Six_dof, Q_initial, P11, P12, P13, 0.1);
 Q_initial = move_to_origin(Six_dof, Q_initial, P13, P0);
 pause(1);
 
 %% 2
 Q_initial = move_to_point(Six_dof, Q_initial, P0, P21);
-Q_initial = move_between_points(Six_dof, Q_initial, P21, P22, P23, 0.2);
+Q_initial = move_between_points(Six_dof, Q_initial, P21, P22, P23, 0.1);
 Q_initial = move_to_origin(Six_dof, Q_initial, P23, P0);
 pause(1);
 
 %% 3
 Q_initial = move_to_point(Six_dof, Q_initial, P0, P31);
-Q_initial = move_between_points(Six_dof, Q_initial, P31, P32, P33, 0.2);
+Q_initial = move_between_points(Six_dof, Q_initial, P31, P32, P33, 0.1);
 Q_initial = move_to_origin(Six_dof, Q_initial, P33, P0);
 pause(1);
 
 %% 4
 Q_initial = move_to_point(Six_dof, Q_initial, P0, P41);
-Q_initial = move_between_points(Six_dof, Q_initial, P41, P42, P43, 0.2);
+Q_initial = move_between_points(Six_dof, Q_initial, P41, P42, P43, 0.1);
 Q_initial = move_to_origin(Six_dof, Q_initial, P43, P0);
 pause(1);
 
 %% 5
 Q_initial = move_to_point(Six_dof, Q_initial, P0, P51);
-Q_initial = move_between_points(Six_dof, Q_initial, P51, P52, P53, 0.2);
+Q_initial = move_between_points(Six_dof, Q_initial, P51, P52, P53, 0.1);
 Q_initial = move_to_origin(Six_dof, Q_initial, P53, P0);
 pause(1);
 
 %% 6
 Q_initial = move_to_point(Six_dof, Q_initial, P0, P61);
-Q_initial = move_between_points(Six_dof, Q_initial, P61, P62, P63, 0.2);
+Q_initial = move_between_points(Six_dof, Q_initial, P61, P62, P63, 0.1);
 Q_initial = move_to_origin(Six_dof, Q_initial, P63, P0);
 pause(1);
 
 %% 7
 Q_initial = move_to_point(Six_dof, Q_initial, P0, P71);
-Q_initial = move_between_points(Six_dof, Q_initial, P71, P72, P73, 0.2);
+Q_initial = move_between_points(Six_dof, Q_initial, P71, P72, P73, 0.1);
 Q_initial = move_to_origin(Six_dof, Q_initial, P73, P0);
 pause(1);
 
 %% 8
 Q_initial = move_to_point(Six_dof, Q_initial, P0, P81);
-Q_initial = move_between_points(Six_dof, Q_initial, P81, P82, P83, 0.2);
+Q_initial = move_between_points(Six_dof, Q_initial, P81, P82, P83, 0.1);
 Q_initial = move_to_origin(Six_dof, Q_initial, P83, P0);
 pause(1);
